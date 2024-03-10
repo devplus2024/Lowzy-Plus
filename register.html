@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body-register items-center relative">
+    <header></header>
+    <main class="absolute left-1/2 -translate-x-1/2 mt-20">
+      <div class="container inline-block mx-auto w-fit">
+        <div
+          class="bg-white rounded-2xl shadow-2xl shadow-green-500 ring-2 ring-blue-500 p-4"
+        >
+          <div class="flex justify-center">
+            <span class="text-7xl text-sky-500"
+              ><i class="ti ti-registered"></i
+            ></span>
+          </div>
+
+          <span class="mt-5">Email:</span>
+          <div class="my-2 relative">
+            <i
+              class="ti ti-mail absolute top-1/2 -translate-y-1/2 top-1/2 left-1 pointer-events-none"
+            ></i>
+            <input
+              type="text"
+              name=""
+              id="email"
+              class="w-96 rounded-lg border-sky-500 border-2 transition duration-300 ease-in-out pl-5"
+            />
+          </div>
+          <span>Password:</span>
+          <div class="my-2 relative">
+            <i
+              class="ti ti-password-user absolute top-1/2 -translate-y-1/2 top-1/2 left-1 pointer-events-none"
+            ></i>
+            <input
+              type="text"
+              name=""
+              id="password"
+              class="w-96 rounded-lg border-sky-500 border-2 transition duration-300 ease-in-out pl-5"
+            />
+          </div>
+          <span>User Name:</span>
+          <div class="my-2 relative">
+            <i
+              class="ti ti-user absolute top-1/2 -translate-y-1/2 top-1/2 left-1 pointer-events-none"
+            ></i>
+            <input
+              type="text"
+              name=""
+              id="username"
+              class="w-96 rounded-lg border-sky-500 border-2 transition duration-300 ease-in-out pl-5"
+            />
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="bg-sky-500 p-4 rounded text-white"
+              onclick="register()"
+            >
+              Register
+            </button>
+          </div>
+          <a href="login.html"
+            ><p class="text-sky-500 mt-3">
+              If you already have an account, please click here ...
+            </p></a
+          >
+          <div class="flex justify-center mt-4">
+            <div class="file">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume" />
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="ti ti-upload"></i>
+                  </span>
+                  <span class="file-label"> Choose a file… </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-26 bg-black"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

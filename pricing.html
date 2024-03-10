@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @media only screen and (max-width: 681px) {
+        .main-nav-mobile-1 {
+          flex-direction: column;
+        }
+        .main-nav-mobile-1 a {
+          justify-content: none;
+        }
+        .main-nav-mobile-2 {
+          margin-top: 14px;
+        }
+        .icon-1 {
+          display: block;
+        }
+        .main-nav-mobile-1-2 {
+          height: 14rem;
+        }
+        
+      }
+      @media only screen and (max-width: 328px) {
+        .main-nav-mobile-1-2 {
+          height: 14rem;
+        }
+        .main-nav-mobile-2 {
+          flex-direction: column;
+          display: flex;
+        }
+        .a-register {
+          margin-top: 30px;
+          display: block;
+        }
+        .icon-1 {
+          display: block !important;
+        }
+      }
+      @media only screen and (max-width: 1324px) {
+        .icon-1 {
+          display: none;
+        }
+      }
+      @media only screen and (max-width:768px) {
+        .icon-1{
+          display:hidden;
+        }
+        
+      }
+      @media only screen and (max-width: 639px) {
+        .gt-screen {
+          height: 14rem;
+        }
+
+      }
+    </style>
+  </head>
+  <body class="m-0 p-0">
+    <header class="mt-0">
+      <div
+        class="relative lg:h-28 w-sreen  gt-screen md:h-28 sm:h-56 bg-teal-500 xl:h-28 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-b-2xl"
+      >
+        <nav class="w-screen">
+          <div class="">
+            <div class="flex">
+              <div
+                class="mx-auto justify-center align-center xl:flex "
+              >
+                <div class=" absolute left-0 top-1/2 -translate-y-1/2 ml-8">
+                  <h1 class=" inline-block"><a href="index.html"><i class="text-6xl ti ti-alien-filled fill-sky-500" style="background:linear-gradient(rgb(255, 0, 234),rgb(255, 0, 0));background-clip: text;color: transparent;"></i></a></h1>
+                </div>
+                <i class="icon-1 sm:block xl:hidden md:hidden lg:hidden ti ti-baseline-density-medium text-xl"></i>
+                <div class="main-nav-mobile-1 sm:flex md:flex xl:inline-block absolute top-1/2  -translate-y-1/2">
+                  <a
+                    href="index.html"
+                    class="text-xl text-white hover:text-blue-600 transition-all hover:duration-500 mr-8"
+                    >Home</a
+                  >
+                  <a
+                    href="pricing.html"
+                    class="text-xl transition-all hover:duration-500 mr-8"
+                    style="color: rgb(0, 255, 115)"
+                    >Pricing</a
+                  >
+                  <a
+                    href="forum.html"
+                    class="hover:text-blue-600 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >Forum</a
+                  >
+                  <a
+                    href="about.html"
+                    class="hover:text-indigo-700 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >About</a
+                  >
+                  <a
+                    href="new.html"
+                    class="hover:text-indigo-700 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >New</a
+                  >
+                </div class="main-nav-mobile-1">
+              </div>
+              <div class="right-0 mr-6 inline-block main-nav-mobile-2 absolute top-1/2  -translate-y-1/2">
+                <a href="login.html" class="p-5"
+                ><button class="text-2xl text-white">Login</button></a
+                >
+                <a
+                  href=""
+                  class="a-register bg-sky-500 text-white rounded-lg p-3 text-2xl no-underline"
+                  >Register</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main
+      class="mt-16 mx-6 rounded-2xl abosolute"
+      style="
+        background-image: url(/img/_0cb690ab-3193-4116-a342-f2b64d9ee1e7.jpg);
+        height: 100vh;
+      "
+    >
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="flex justify-center">
+        <div
+          class="mr-8 h-96 w-80 rounded-2xl border-2 border-blue-500 p-8 text-purple-500 relative bg-white"
+        >
+          <div
+            class="bg-white absolute border-2 border-sky-500 rounded-2xl px-3 inline-block top-0 left-1/2 -translate-y-1/2 -translate-x-1/2"
+          >
+            <p class="">Professional</p>
+          </div>
+        </div>
+        <div
+          class="h-96 w-80 rounded-2xl border-2 border-blue-500 p-8 relative bg-white"
+        >
+          <div
+            class="bg-white absolute border-2 border-sky-500 rounded-2xl px-3 inline-block top-0 left-1/2 -translate-y-1/2 -translate-x-1/2"
+          >
+            <p class="">Enterprise</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

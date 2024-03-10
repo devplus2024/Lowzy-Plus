@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @media only screen and (max-width: 681px) {
+        .main-nav-mobile-1 {
+          flex-direction: column;
+        }
+        .main-nav-mobile-1 a {
+          justify-content: none;
+        }
+        .main-nav-mobile-2 {
+          margin-top: 14px;
+        }
+        .icon-1 {
+          display: block;
+        }
+      }
+      @media only screen and (max-width: 328px) {
+        .main-nav-mobile-2 {
+          flex-direction: column;
+          display: flex;
+        }
+        .a-register {
+          margin-top: 30px;
+          display: block;
+        }
+        .icon-1 {
+          display: block !important;
+        }
+      }
+      @media only screen and (max-width: 1324px) {
+        .icon-1 {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="m-0 p-0">
+    <nav>
+      <div>
+        <div class="flex mt-8">
+          <div
+            class="mx-auto justify-center align-center flex main-nav-mobile-1"
+          >
+            <!-- <i class="icon-1 ti ti-baseline-density-medium text-xl"></i> -->
+            <a
+              href="index.html"
+              class="text-xl hover:text-blue-600 transition-all hover:duration-500 mr-8"
+              >Home</a
+            >
+            <a
+              href="pricing.html"
+              class="hover:text-blue-600 text-xl transition-all hover:duration-500 mr-8"
+              >Pricing</a
+            >
+            <a
+              href="forum.html"
+              class="text-purple-700 text-xl transition-all hover:duration-500 mr-8"
+              >Forum</a
+            >
+            <a
+              href="about.html"
+              class="hover:text-indigo-700 text-xl transition-all hover:duration-500 mr-8"
+              >About</a
+            >
+            <a
+              href="new.html"
+              class="hover:text-indigo-700 text-xl transition-all hover:duration-500 mr-8"
+              >New</a
+            >
+          </div>
+          <div class="ml-auto mr-6 inline-block main-nav-mobile-2">
+            <a href="login.html" class="p-5"
+                ><button class="text-2xl" style="background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );">Login</button></a
+              >
+            <a
+              href=""
+              class="a-register bg-sky-500 text-white rounded-lg p-3 text-2xl no-underline"
+              >Register</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

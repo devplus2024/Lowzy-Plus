@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/js/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @media only screen and (max-width: 681px) {
+        .main-nav-mobile-1 {
+          flex-direction: column;
+          left:0 ;
+          margin-left: -250px;
+          
+        }
+        .main-nav-mobile-1 a {
+          justify-content: none;
+        }
+        .main-nav-mobile-1-2 {
+          height: 14rem;
+        }
+        
+        
+      }
+      @media only screen and (max-width: 328px) {
+        .main-nav-mobile-1-2 {
+          height: 14rem;
+        }
+        .main-nav-mobile-2 {
+          flex-direction: column;
+          display: flex;
+        }
+        .a-register {
+          margin-top: 30px;
+          display: block;
+        }
+        .icon-1 {
+          display: block !important;
+        }
+      }
+      @media only screen and (max-width: 1324px) {
+        .icon-1 {
+          display: none;
+        }
+      }
+      @media only screen and (max-width:768px) {
+        .icon-1{
+          display:hidden;
+        }
+        
+      }
+      @media only screen and (max-width: 639px) {
+        .gt-screen {
+          height: 14rem;
+        }
+
+      }
+      @media only screen and (max-width: 612px) {
+        .main-nav-mobile-1 {
+          flex-direction: column;
+          left:0 ;
+          margin-left: 100px;
+        }
+        .main-nav-mobile-1 a {
+          justify-content: none;
+        }
+        .main-nav-mobile-1-2 {
+          height: 14rem;
+        }
+        .main-nav-mobile-2{
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body class="m-0 p-0">
+    <header class="mt-0">
+      <div
+        class="relative lg:h-28 w-sreen  gt-screen md:h-28 sm:h-56 bg-teal-500 xl:h-28 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-b-2xl"
+      >
+        <nav class="w-screen">
+          <div class="">
+            <div class="flex">
+              <div
+                class="mx-auto justify-center align-center xl:flex "
+              >
+                
+                <div class="main-nav-mobile-1 sm:flex md:flex xl:inline-block absolute top-1/2  -translate-y-1/2 -translate-x-1/2 left-1/2">
+                  <i class="icon-1 sm:block xl:hidden md:hidden lg:hidden ti ti-baseline-density-medium text-xl"></i>
+                  <a
+                    href="index.html"
+                    class="text-xl text-white  transition-all hover:duration-500 mr-8"
+                    style="color: rgb(0, 255, 115)"
+                    >Home</a
+                  >
+                  <a
+                    href="pricing.html"
+                    class="text-xl transition-all hover:duration-500 mr-8 hover:text-blue-600 text-white"
+                    >Pricing</a
+                  >
+                  <a
+                    href="forum.html"
+                    class="hover:text-blue-600 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >Forum</a
+                  >
+                  <a
+                    href="about.html"
+                    class="hover:text-indigo-700 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >About</a
+                  >
+                  <a
+                    href="new.html"
+                    class="hover:text-indigo-700 text-white text-xl transition-all hover:duration-500 mr-8"
+                    >New</a
+                  >
+                </div class="main-nav-mobile-1">
+              </div>
+              <div class="right-0 mr-6 main-nav-mobile-2 absolute top-1/2  -translate-y-1/2">
+                <div class="flex justify-center mb-5 lg:hidden md:hidden  xl:hidden"><h1 class=" inline-block wobble"><a href="index.html" class="text-white text-2xl">Lowzy - Plus</a></h1></div>
+                <div class="flex">
+                  <a href="login.html" class="mr-5"
+                  ><button class="text-2xl text-white" style="background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );">Login</button></a
+                  >
+                  <a
+                    href=""
+                    class=""
+                    ><button class="text-2xl text-white" style="background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );">Register</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="mt-16" style="height: 500vh">
+      <div class="relative">
+        <div
+          class="flex-col p-5 w-72 rounded-lg mt-5 flex justify-center absolute -translate-x-1/2 left-1/2"
+          style="
+            background: linear-gradient(
+              90deg,
+              rgb(93, 224, 230) 0%,
+              rgb(0, 74, 173) 100%
+            );
+          "
+        >
+          <img
+            src="./img/Thiết kế chưa có tên.png"
+            alt=""
+            class="w-28 rounded-lg mx-auto inline-block"
+            data-aos="fade-right"
+          />
+          <span
+            class="mx-auto text-white text-2xl cssanimation leFadeIn sequence"
+            >Hiện nay đã có mã QR</span
+          >
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div>
+        <div class="cssanimation leMagnify sequence"></div>
+      </div>
+    </main>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"
+    ></script>
+  </body>
+</html>
