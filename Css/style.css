@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  color: #1d9af2;
+  background-color: #292d3e;
+  border: 1px solid #1d9af2;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 56px;
+  width: 109.56px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  transform: translateX(-3px);
+}
+
+.leFadeIn span {
+  animation-name: leFadeIn;
+}
+@keyframes leFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.leFadeInBottom span {
+  animation-name: leFadeInBottom;
+}
+@keyframes leFadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.open {
+  width: 473px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-flex;
+  animation-name: open;
+}
+@keyframes open {
+  from {
+    width: 0;
+  }
+}
+
+.leFadeInLeft span {
+  animation-name: leFadeInLeft;
+}
+@keyframes leFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wobble {
+  animation-name: wobble;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  15% {
+    transform: translateX(-30px) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+.inline-gallery-container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+}
+
+.thumbnail-container {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.pdf-thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail-container {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 10px;
+  background-color: #53a7ea;
+  padding: 9px;
+}
+
+.pdf-thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.ti {
